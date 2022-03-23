@@ -42,11 +42,11 @@
                                         <a href="#">Forgot your password?</a>
                                     </div>
                                 </div>
+                                <button onclick="login()" type="button">Log in</button>
+                                <div class="member-register">
+                                    <p> Not a member? <a href="login.php"> Register now</a></p>
+                                </div>
                             </form>
-                            <button  onclick="login()" type="button">Log in</button>
-                            <div class="member-register">
-                                <p> Not a member? <a href="login.php"> Register now</a></p>
-                            </div>
                         </div>
                     </div>
                 </div>

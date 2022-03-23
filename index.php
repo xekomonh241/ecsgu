@@ -82,22 +82,22 @@ require_once($path . '/class/product.php')
                                     <span class="category">Offer 2021</span>
                                     <h2 class="title-1">Sale Up To </h2>
                                     <h2 class="title-2"><span>50%</span> Off</h2>
-                                    <a href="shop-left-sidebar.html" class="btn btn-lg btn-primary btn-hover-dark"> Shop Now <i class="fa fa-shopping-basket ml-15px" aria-hidden="true"></i></a>
+                                    <a href="categories.php" class="btn btn-lg btn-primary btn-hover-dark"> Shop Now <i class="fa fa-shopping-basket ml-15px" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                             <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 d-flex justify-content-center position-relative">
                                 <div class="show-case">
                                     <div class="hero-slide-image">
-                                        <img src="assets/images/slider-image/slider-1.png" alt="" />
+                                        <img src="assets/images/slider-image/slider1.jpg" alt="" width="90%" />
                                     </div>
                                     <div class="display-wrapper">
                                         <div class="content-side">
                                             <h4 class="title">Full Dress</h4>
                                             <span class="price">$21.00</span>
-                                            <a href="shop-left-sidebar.html" class="shop-link">Shop Now</a>
+                                            <a href="categories.php" class="shop-link">Shop Now</a>
                                         </div>
                                         <div class="image-side">
-                                            <img src="assets/images/slider-image/display-image.png" alt="">
+                                            <img src="assets/images/slider-image/display.jpg" alt="" width="97px" height="89px">
                                         </div>
                                     </div>
                                 </div>
@@ -114,22 +114,22 @@ require_once($path . '/class/product.php')
                                     <span class="category">Offer 2021</span>
                                     <h2 class="title-1">Sale Up To </h2>
                                     <h2 class="title-2"><span>50%</span> Off</h2>
-                                    <a href="shop-left-sidebar.html" class="btn btn-lg btn-primary btn-hover-dark"> Shop Now <i class="fa fa-shopping-basket ml-15px" aria-hidden="true"></i></a>
+                                    <a href="categories.php" class="btn btn-lg btn-primary btn-hover-dark"> Shop Now <i class="fa fa-shopping-basket ml-15px" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                             <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 d-flex justify-content-center position-relative">
                                 <div class="show-case">
                                     <div class="hero-slide-image">
-                                        <img src="assets/images/slider-image/slider-2.png" alt="" />
+                                        <img src="assets/images/slider-image/slider2.jpg" alt="" width="70%" />
                                     </div>
                                     <div class="display-wrapper">
                                         <div class="content-side">
                                             <h4 class="title">Full Dress</h4>
                                             <span class="price">$21.00</span>
-                                            <a href="shop-left-sidebar.html" class="shop-link">Shop Now</a>
+                                            <a href="categories.php" class="shop-link">Shop Now</a>
                                         </div>
                                         <div class="image-side">
-                                            <img src="assets/images/slider-image/display-image.png" alt="">
+                                            <img src="assets/images/slider-image/display.jpg" alt="" width="97px" height="89px">
                                         </div>
                                     </div>
                                 </div>
@@ -155,8 +155,8 @@ require_once($path . '/class/product.php')
         <div class="container">
             <div class="row">
                 <div class="single-col">
-                    <a href="shop-left-sidebar.html" class="single-banner">
-                        <img src="assets/images/banner/1.jpg" alt="">
+                    <a href="categories.php" class="single-banner">
+                        <img src="assets/images/banner/banner1.jpg" alt="">
                         <div class="item-disc">
                             <span class="item-title">Women</span>
                             <span class="item-amount">16 items</span>
@@ -165,16 +165,16 @@ require_once($path . '/class/product.php')
                 </div>
                 <div class="single-col center-col">
                     <div class="single-banner">
-                        <img src="assets/images/banner/2.jpg" alt="">
+                        <img src="assets/images/banner/banner2.jpg" alt="">
                         <div class="item-disc">
                             <h2 class="title">#bestsellers</h2>
-                            <a href="shop-left-sidebar.html" class="shop-link">Shop Now</a>
+                            <a href="categories.php" class="shop-link">Shop Now</a>
                         </div>
                     </div>
                 </div>
                 <div class="single-col">
-                    <a href="shop-left-sidebar.html" class="single-banner">
-                        <img src="assets/images/banner/3.jpg" alt="">
+                    <a href="categories.php" class="single-banner">
+                        <img src="assets/images/banner/banner3.jpg" alt="">
                         <div class="item-disc">
                             <span class="item-title">Nomen</span>
                             <span class="item-amount">16 items</span>
@@ -308,9 +308,9 @@ require_once($path . '/class/product.php')
                                     }
                                 }
                                 ?>
-
                             </div>
                         </div>
+
                         <!-- 2st tab start -->
                         <div class="tab-pane fade show active" id="tab-product-new">
                             <div class="row">
@@ -471,7 +471,7 @@ require_once($path . '/class/product.php')
         <div class="container ">
             <div class="row">
                 <div class="col-12">
-                    <div class="deal-inner deal-bg position-relative pt-100px pb-100px" data-bg-image="assets/images/deal-img/deal-bg.jpg">
+                    <div class="deal-inner deal-bg position-relative pt-100px pb-100px" data-bg-image="assets/images/deal-img/banner1.jpg">
                         <div class="deal-wrapper">
                             <span class="category">#FASHION SHOP</span>
                             <h3 class="title">Deal Of The Day</h3>
@@ -481,9 +481,9 @@ require_once($path . '/class/product.php')
                             <a href="categories.php" class="btn btn-lg btn-primary btn-hover-dark m-auto"> Shop
                                 Now <i class="fa fa-shopping-basket ml-15px" aria-hidden="true"></i></a>
                         </div>
-                        <div class="deal-image">
-                            <img class="img-fluid" src="assets/images/deal-img/woman.png" alt="">
-                        </div>
+                        <!-- <div class="deal-image">
+                            <img class="img-fluid" src="assets/images/deal-img/banner2.jpg" alt="" width="50%" >
+                        </div> -->
                     </div>
                 </div>
             </div>

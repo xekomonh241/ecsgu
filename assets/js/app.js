@@ -4,5 +4,5 @@ $(document).ready(function() {
 });
 
 function login() {
-    let username = $('#username').val();
+    console.log('login');
 }
