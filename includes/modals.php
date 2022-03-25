@@ -30,8 +30,8 @@
                             <h2>Log in</h2>
                             <h3>Log in your account</h3>
                             <form action="formlogin" method="POST">
-                                <input type="text" placeholder="Username" name="username">
-                                <input type="password" placeholder="Password" name="password">
+                                <input type="text" placeholder="Username" id="username">
+                                <input type="password" placeholder="Password" id="password">
                                 <div class="remember-forget-wrap">
                                     <div class="remember-wrap">
                                         <input type="checkbox">

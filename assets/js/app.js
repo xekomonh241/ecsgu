@@ -4,5 +4,26 @@ $(document).ready(function() {
 });
 
 function login() {
-    console.log('login');
+    var username = $('#username').val();
+    var password = $('#password').val();
+
+    var data = {
+        'username': username,
+        'password': password   
+    };
+    
+    $.ajax({        
+        url: '../ecsgu/lib/checklogin.php',
+        type: 'POST',
+        data: data,
+        success: function(response) {
+            console.log(response)
+            if(response != 0){
+                console.log(response);
+            }
+            else{
+                window.location.href = "../ecsgu/index.php";
+            }
+        }
+    });
 }

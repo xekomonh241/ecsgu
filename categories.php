@@ -121,7 +121,7 @@ require_once($path . '/category.php');
                                                         <!-- Single Prodect -->
                                                         <div class="product">
                                                             <div class="thumb">
-                                                                <a href="product-details.php" class="image">
+                                                                <a href="product-details.php?id_product=<?php echo $row['id_product'] ?>" class="image">
                                                                     <img src="<?php echo $row['image'] ?>" alt="Product" />
                                                                     <img class="hover-image" src="<?php echo $row['image'] ?>" alt="Product" />
                                                                 </a>
