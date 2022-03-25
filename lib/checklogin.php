@@ -1,4 +1,6 @@
 <?php
+    session_start();
+
     $path = realpath(dirname(__FILE__));
 
     require_once($path . '/../class/customer.php');
@@ -6,11 +8,15 @@
     $customerModel = new Customer();
     $username = $_POST['username'];
     $password = $_POST['password'];
-    $checklogin = $customerModel -> checkLogin($username, $password);
-    if($checklogin){
+    $checkLogin = $customerModel -> checkLogin($username, $password);
+    if($checkLogin == false){
         echo 0;
     }
     else {
         echo 1;
+        $_SESSION['login'] = true;
+        $rs = $checkLogin->fetch_assoc();
+        $_SESSION['fullname'] = $rs['fullname'];
+        echo $rs['fullname'];
     }
 ?>

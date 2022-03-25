@@ -1,4 +1,9 @@
-    <!-- Top Bar -->
+<?php
+    session_start();
+
+?>
+
+<!-- Top Bar -->
 
     <div class="header-to-bar"> HELLO EVERYONE! 25% Off All Products </div>
 
@@ -38,8 +43,16 @@
                     <!-- Header Action Start -->
                     <div class="col col-lg-auto align-self-center pl-0">
                         <div class="header-actions">
-                            <a href="login.php" class="header-action-btn login-btn" data-bs-toggle="modal"
-                                data-bs-target="#loginActive">Sign In</a>
+                            <?php 
+                                if(isset($_SESSION['login'])){
+                                    echo '<a href="my-account.php" class="header-action-btn login-btn">'.$_SESSION['fullname'].'</a>';
+                                }
+                                else {
+                                    echo '<a href="login.php" class="header-action-btn login-btn" data-bs-toggle="modal"
+                                    data-bs-target="#loginActive">Sign In</a>';
+                                }
+                            ?>
+                            
                             <!-- Single Wedge Start -->
                             <a href="#" class="header-action-btn" data-bs-toggle="modal" data-bs-target="#searchActive">
                                 <i class="pe-7s-search"></i>

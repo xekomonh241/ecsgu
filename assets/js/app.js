@@ -13,16 +13,16 @@ function login() {
     };
     
     $.ajax({        
-        url: '../ecsgu/lib/checklogin.php',
+        url: './lib/checklogin.php',
         type: 'POST',
         data: data,
         success: function(response) {
             console.log(response)
-            if(response != 0){
+            if(response == 0){
                 console.log(response);
             }
             else{
-                window.location.href = "../ecsgu/index.php";
+                // window.location.href = "./index.php";
             }
         }
     });
