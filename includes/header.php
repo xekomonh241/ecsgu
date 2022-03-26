@@ -27,15 +27,19 @@
                                     class="pe-7s-angle-down"></i></a>
                                     <ul class="sub-menu">
                                         <li><a href="categories.php">Category</a></li>
-                                        <li><a href="my-account.php">Account</a></li>
-                                        <li><a href="privacy-policy.php">Privacy Policy</a></li>
-                                        <li><a href="faq.php">Faq</a></li>
                                     </ul>
                                 </li>
                                 </li>
                                 <li class="dropdown "><a href="blogs.php">Blogs</a>
                                 </li>
-                                <li><a href="about.php">About us</a></li>
+                                <li class="dropdown"><a href="about.php">About us <i
+                                    class="pe-7s-angle-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="my-account.php">Account</a></li>
+                                        <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                                        <li><a href="faq.php">Faq</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="contact.php">Contact us</a></li>
                             </ul>
                         </div>
